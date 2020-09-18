@@ -8,11 +8,11 @@ A very useful function for working with random sets.
 require './randumb'
 
 numbers = [1,2,3,4,5]
-numberSet = RanDumb.new(numbers)
+number_set = RanDumb.new(numbers)
 
 5.times do
     5.times do
-        puts numberSet.get()
+        puts number_set.get()
         end
     puts "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️"
 end
